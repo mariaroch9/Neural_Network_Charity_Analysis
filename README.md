@@ -9,10 +9,11 @@ To help the foundation predict where to make investments.
 #### Target for the model
 The target of the analysis is to ascertain whether the investments are successful. In our dataset, it is denoted by the “IS_SUCCESSFUL” which tells us if the money invested was used effectively.
 
-```
-<img width="1106" alt="Categorical_Variables" src="https://user-images.githubusercontent.com/111670866/213972115-810d358d-fd30-4da0-b347-413e54b866c2.png">
+
+<img width="1106" alt="Categorical_Variables" src="https://user-images.githubusercontent.com/111670866/213972670-1b52973e-a789-4895-a699-8f9c5c0fb552.png">
 
 ```
+
 #### Features for the model 
 The features include application type, affiliation, classification, use case, organization, status, income amt, special considerations, ask amt
 ```
@@ -44,15 +45,17 @@ This model didn’t achieve the target model performance. The result is as below
 To try and enhance the performance of the model I tried several things such as 
 1)    Changing the activation function to sigmoid in the hidden layers and the output layers resulted in an accuracy of 65.46%
 ``` 
- <img width="930" alt="Activation_Accuracy" src="https://user-images.githubusercontent.com/111670866/213972379-8fb6f84e-50f7-48d8-b377-f1b642a6547e.png">
+<img width="930" alt="Activation_Accuracy" src="https://user-images.githubusercontent.com/111670866/213972379-8fb6f84e-50f7-48d8-b377-f1b642a6547e.png">
 
 ```
 ```
 2)    Increasing the number of hidden layers to 3  resulted in an accuracy of 65.43%
-```
- <img width="930" alt="Hidden_Layers_Accuracy" src="https://user-images.githubusercontent.com/111670866/213972397-6f41e2d9-144d-4ebe-8a9e-4506c12c0f26.png">
 
+
+<img width="930" alt="Hidden_Layers_Accuracy" src="https://user-images.githubusercontent.com/111670866/213972773-ee8662e8-8cde-4031-83ec-fe9bf2d3bb14.png">
 ```
+
+
 3)    Increasing the number of neurons in the hidden layers to 90 and 50 resulted in an accuracy of 65.42%
 ```
  <img width="930" alt="Increasing_Neurons" src="https://user-images.githubusercontent.com/111670866/213972410-f664ddb8-e399-4769-b29c-612efda3bf77.png">
